@@ -19,7 +19,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    NSString *str = @"4444就是健康或lhjkl1*!3@#$%^&*:;'/?.><}{][|~`-+)(";
+    NSString *str = @"gggg4444就是健康或lhjkl1*!3@#$%^&*:;'/?.><}{][|~`-+)(";
     NSError *error = NULL;
     
     NSRegularExpression *usernameRegular = [NSRegularExpression regularExpressionWithPattern:@"[\u4E00-\u9FA5a-z]+[0-9]+" options:NSRegularExpressionCaseInsensitive error:&error];//一串中文(>=1)后面跟着一串小写字母(>=1)再跟着一串数字(>=1)
